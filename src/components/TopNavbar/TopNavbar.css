@@ -1,0 +1,33 @@
+.head {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+.topnav {
+    display: flex;
+    height: 1em;
+    flex-direction: row;
+}
+
+.alink {
+    margin: 2px 2px;
+    text-align: center;
+    padding: 1px 1px;
+    font-size: 20px
+}
+
+.logo {
+    color: white
+}
+
+.Name {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .Name {
+        color: black;
+    }
+}
